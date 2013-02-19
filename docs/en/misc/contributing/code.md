@@ -130,7 +130,7 @@ Example: Bad commit message
 Example: Good commit message
 
 	BUG Formatting through prepValueForDB() 
-
+	
 	Added prepValueForDB() which is called on DBField->writeToManipulation() 
 	to ensure formatting of value before insertion to DB on a per-DBField type basis (fixes #1234).
 	Added documentation for DBField->writeToManipulation() (related to a4bd42fd).
